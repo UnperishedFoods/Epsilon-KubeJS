@@ -1,6 +1,6 @@
 ServerEvents.recipes((event) => {
   event.shaped(
-    "3x minecraft:stone",
+    "6x minecraft:stone",
     [
       // arg 1: output
       "ADB",
