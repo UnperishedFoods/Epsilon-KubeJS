@@ -4,6 +4,7 @@ StartupEvents.registry("block", (event) => {
   .material("stone")
   .hardness(1.0)
   .resistance(1.0)
+  .requiresTool(true)
   .tagBlock("mineable/pickaxe")
   .tagBlock("mineable:needs_stone_tool")
 })
