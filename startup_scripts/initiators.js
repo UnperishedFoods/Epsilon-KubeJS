@@ -11,7 +11,7 @@ ItemEvents.modification(event => {
   event.modify('kubejs:combat_initiator', item => {
     item.rarity = 'RARE'
   })
-  event.modify('kubejstech_initiator', item => {
+  event.modify('kubejs:tech_initiator', item => {
     item.rarity = 'RARE'
   })
 })

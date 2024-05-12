@@ -26,3 +26,5 @@ ServerEvents.recipes((event) => {
 		[],
 	)
 })
+
+console.log('Forbidden & Arcanus loaded')
