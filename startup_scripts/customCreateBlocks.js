@@ -10,4 +10,12 @@ StartupEvents.registry("block", (event) => {
   .tagBlock("mineable:needs_stone_tool")
 })
 
+StartupEvents.registry('fluid', event => {
+  event.create('pourable_milk')
+    .displayName('Pourable Milk')
+    .stillTexture('kubejs:block/milk_still')
+    .flowingTexture('kubejs:block/milk_flowing')
+    .bucketColor(0xffffff)
+})
+
 console.log('Custom create blocks loaded')

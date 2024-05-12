@@ -5,7 +5,6 @@ StartupEvents.registry('fluid', event => {
     .flowingTexture('kubejs:block/archwood_sap_flowing')
     .bucketColor(0xb59ddd)
 })
-
 StartupEvents.registry('item', e => {
   e.create('essence_crystal').maxStackSize(64)
 })

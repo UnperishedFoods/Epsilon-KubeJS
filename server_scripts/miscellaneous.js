@@ -20,6 +20,8 @@ ServerEvents.recipes((event) => {
     "minecraft:beef", // arg 3: the item to be upgraded
     "forbidden_arcanus:eternal_stella", // arg 4: the upgrade item
   )
+  event.shapeless('1x kubejs:pourable_milk_bucket', ['minecraft:milk_bucket', 'supplementaries:faucet'])
+  event.recipes.create.crushing(['minecraft:milk_bucket', 'supplementaries:faucet'], 'kubejs:pourable_milk_bucket')
 })
 
 console.info('Misc loaded.')
