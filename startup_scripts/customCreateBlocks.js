@@ -13,8 +13,8 @@ StartupEvents.registry("block", (event) => {
 StartupEvents.registry('fluid', event => {
   event.create('pourable_milk')
     .displayName('Pourable Milk')
-    .stillTexture('kubejs:block/milk_still')
-    .flowingTexture('kubejs:block/milk_flowing')
+    .stillTexture('kubejs:fluid/milk_still')
+    .flowingTexture('kubejs:fluid/milk_flowing')
     .bucketColor(0xffffff)
 })
 

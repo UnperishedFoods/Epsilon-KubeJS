@@ -19,6 +19,7 @@ event.recipes.createCompacting([
   [Fluid.of(('kubejs:archwood_sap'), 250)])
   event.remove({ id: 'create:crafting/kinetics/belt_connector' })
   event.remove({ id: 'create_dd:mixing/raw_rubber' })
+  event.remove({ output: 'thermal:slag' })
 })
 
 console.log('Create has been loaded!')
