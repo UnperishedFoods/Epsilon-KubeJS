@@ -510,7 +510,7 @@ ServerEvents.recipes((event) => {
     },
   )
   event.shaped(
-    "artifacts:pickaxe_heater",
+    "artifacts:whoopee_cushion",
     [
       "AAA",
       "ABA",
