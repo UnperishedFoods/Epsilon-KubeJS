@@ -1,6 +1,6 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "kubejs:item/pourable_milk_bucket"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kubejs:item/pourable_milk_bucket"
+  }
 }

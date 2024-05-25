@@ -132,7 +132,7 @@ ServerEvents.recipes((event) => {
     },
   )
   event.shaped(
-    "artifacts:scarf_of_invisbility",
+    "artifacts:scarf_of_invisibility",
     [
       "B  ",
       "BAB",
@@ -461,7 +461,7 @@ ServerEvents.recipes((event) => {
     },
   )
   event.shaped(
-    "artifacts:snow_shoes",
+    "artifacts:snowshoes",
     [
       "   ",
       "BAB",
@@ -474,7 +474,7 @@ ServerEvents.recipes((event) => {
     },
   )
   event.shaped(
-    "artifacts:steadfast_shoes",
+    "artifacts:steadfast_spikes",
     [
       "   ",
       "B B",
