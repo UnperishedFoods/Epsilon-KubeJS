@@ -11,6 +11,7 @@ event.recipes.create.compacting('kubejs:earth_essence_powder',['kubejs:crushed_e
 event.recipes.create.mixing('kubejs:fire_essence_powder', ['minecraft:fire_charge','kubejs:crushed_essence_crystal']).heated()
 
 event.recipes.create.emptying([Fluid.of('biomesoplenty:blood',250),'minecraft:rotten_flesh'],'#forge:meat')
+  
 event.recipes.create.mixing('kubejs:conjuration_essence_powder',[Fluid.of('biomesoplenty:blood',500),'kubejs:crushed_essence_crystal','minecraft:book'])
   
   event.recipes.create.deploying('kubejs:incomplete_water_essence_powder', ['kubejs:crushed_essence_crystal', 'minecraft:cod'])

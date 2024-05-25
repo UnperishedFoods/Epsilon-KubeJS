@@ -20,6 +20,7 @@ event.recipes.createCompacting([
   event.remove({ id: 'create:crafting/kinetics/belt_connector' })
   event.remove({ id: 'create_dd:mixing/raw_rubber' })
   event.remove({ output: 'thermal:slag' })
+  event.remove({ id: 'create_wt:weapons/tiny_pickaxe/diamond_nugget'})
 })
 
 console.log('Create has been loaded!')
