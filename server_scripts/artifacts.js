@@ -299,7 +299,7 @@ ServerEvents.recipes((event) => {
     {
       A: "minecraft:totem_of_undying",
       B: "minecraft:ender_pearl",
-      C: "minecraft:chrous_fruit",
+      C: "minecraft:chorus_fruit",
     },
   )
   event.shaped(
